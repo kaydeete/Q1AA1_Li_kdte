@@ -1,0 +1,67 @@
+*
+{
+    margin: 1px;
+    padding: 1px;
+}
+
+
+/** hnf **/
+.banner
+{
+    background-color: pink;
+}
+
+.banner a{
+    float: right;
+    text-decoration: none;
+}
+
+.footer
+{
+    background-color: pink;
+}
+
+.footer p{float: left;}
+
+.footerlinks {float: right;}
+
+
+/** index **/
+.main
+{
+    background-image: url('images/bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.maintxt
+{
+    position: absolute;
+    top: 10%;
+}
+
+.maintxt a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: inline-block;
+}
+
+.maintxt h1 {color: lightblue;}
+.maintxt h1 span {color: plum;}
+
+
+/** gallery **/
+
+.pictures
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
