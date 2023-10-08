@@ -1,38 +1,42 @@
-*
-{
-    margin: 1px;
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Junge&family=Rubik+Vinyl&family=Silkscreen&family=Updock&display=swap');
+
+* {
+    margin: 0px;
     padding: 1px;
 }
 
 
 /** hnf **/
-.banner
-{
+.banner {
     background-color: pink;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    height: 5vh;
 }
 
-.banner a{
+.banner a {
     float: right;
     text-decoration: none;
 }
 
-.footer
-{
+.footer {
     background-color: pink;
-    height: 4vh;
+    height: 5vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer p{float: left;}
+.footer p {
+    float: left;
+}
 
-.footerlinks {float: right;}
+.footerlinks {
+    float: right;
+}
 
 
 /** index **/
-.main
-{
+.main {
     background-image: url('images/bgimage.jpg');
     background-size: cover;
     background-position: center;
@@ -40,14 +44,12 @@
     height: 90vh;
 }
 
-.maintxt
-{
+.maintxt {
     padding: 10vh;
     top: 10%;
 }
 
-.maintxt a
-{
+.maintxt a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     background-color: black;
@@ -56,17 +58,28 @@
     display: inline-block;
 }
 
-.maintxt h1 {color: lightblue;}
-.maintxt h1 span {color: plum;}
+.maintxt h1 {
+    color: lightblue;
+}
+
+.maintxt h1 span {
+    color: plum;
+}
 
 
 /** gallery **/
 
-.maingallery {background-color: lightgoldenrodyellow;}
-.maingallery h1 {font-family: 'Courier New', Courier, monospace;}
-.maingallery h1 span {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-.pictures
-{
+.maingallery {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Rubik Vinyl', cursive;
+    height: 90vh;
+}
+
+.maingallery h1 span {
+    color: hotpink;
+}
+
+.pictures {
     width: 100%;
     text-align: center;
 }
