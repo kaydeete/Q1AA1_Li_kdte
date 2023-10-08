@@ -17,7 +17,9 @@
 
 .banner a {
     float: right;
+    margin-right: 20px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .footer {
@@ -72,7 +74,7 @@
 .maingallery {
     background-color: lightgoldenrodyellow;
     font-family: 'Rubik Vinyl', cursive;
-    height: 90vh;
+    height: 100%;
 }
 
 .maingallery h1 span {
@@ -81,4 +83,5 @@
 
 .pictures {
     text-align: center;
+    width: 100%;
 }
